@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for SEO and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the most beautiful cities in the world, including Paris, New York, Tokyo, and more.">
+    <meta name="keywords" content="beautiful cities, travel, tourism, world cities, famous places">
+    <meta name="author" content="Quiesscents">
+    
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="Explore Beautiful Cities">
+    <meta property="og:description" content="Discover stunning destinations like Paris, New York, and Tokyo.">
+    <meta property="og:type" content="website">
+    
+    <title>Beautiful Cities - Explore Stunning Destinations</title>
+    
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <h1>Explore Beautiful Cities</h1>
+        <p>Discover the world's most breathtaking destinations.</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Featured City Section -->
+        <section id="featured-city">
+            <h2 id="city-title">Paris, France</h2>
+            <p id="city-description">Paris is known as the city of love, with the iconic Eiffel Tower.</p>
+            <figure>
+                <img id="city-image" src="https://source.unsplash.com/600x400/?paris" alt="Beautiful view of Paris">
+                <figcaption>Paris, the City of Love</figcaption>
+            </figure>
+            <button onclick="changeCity()">Show Another City</button>
+        </section>
+
+        <!-- City List Section -->
+        <section id="city-list-section">
+            <h2>More Stunning Cities</h2>
+            <ul id="city-list">
+                <li>New York, USA</li>
+                <li>Tokyo, Japan</li>
+                <li>Venice, Italy</li>
+            </ul>
+            <button onclick="addCity()">Add Sydney, Australia</button>
+            <button onclick="removeCity()">Remove Last City</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Explore Beautiful Cities. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
